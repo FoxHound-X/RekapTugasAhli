@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Tugas Flowgorith"/>
+        <attribute name="authors" value="FOXHOUND"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-19 04:10:28 PM"/>
+        <attribute name="created" value="Rk9YSE9VTkQ7REVTS1RPUC0zQU5UMEhGOzIwMjQtMDktMTk7MDM6NTQ6NTAgUE07Mjk1OA=="/>
+        <attribute name="edited" value="Rk9YSE9VTkQ7REVTS1RPUC0zQU5UMEhGOzIwMjQtMDktMTk7MDQ6MTA6MjggUE07MTszMDY0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, bilangan, total, i" type="Integer" array="False" size=""/>
+            <declare name="hasil" type="Real" array="False" size=""/>
+            <output expression="&quot;Masukkan Jumlah Data Yang Ingin DI Rata Ratakan&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="total" expression="0"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <output expression="&quot;Masukkan Nilai Siswa&quot;" newline="True"/>
+                <input variable="bilangan"/>
+                <assign variable="total" expression="total + bilangan"/>
+            </for>
+            <assign variable="hasil" expression="total/n"/>
+            <output expression="&quot;Hasil Dari Nilai Rata Ratanya Adalah : &quot; &amp;hasil" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
