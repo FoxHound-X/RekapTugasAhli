@@ -1,0 +1,14 @@
+AnimationPlayer
+AudioStreamPlayer2D
+AudioListener2D
+Timer
+Label
+Panel
+VBoxContainer
+Button
+Camera2D
+ColorRect
+Sprite2D
+AnimationTree
+CollisionShape2D
+AnimatableBody2D
